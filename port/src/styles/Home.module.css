@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Sofia+Sans:ital,wght@0,400;0,600;1,100&display=swap');
+
+
+
+.image {
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  margin-top: 2%;
+
+}
+
+.box {
+  margin-top: 2%;
+}
+
+.box:hover {
+  border: 2.5px solid Yellow;
+  cursor: pointer;
+}
+
+.leftys {
+  position: absolute;
+  margin-left: 23%;
+  margin-right: 45%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  opacity: 90%;
+}
+
+.splashtext {
+  position: absolute;
+  font-weight: 600;
+  color: yellow;
+  font-size: 48px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Sofia Sans', sans-serif;
+  margin-top: 32%;
+  margin-left: 45%;
+  margin-right: 45%;
+  opacity: 85%;
+}
+
+.splashtext:hover {
+  cursor: pointer;
+}
+
+
+.containers {
+  height: 100%;
+  text-align: center;
+  padding: 8;
+  margin-left: 12%;
+  margin-top: 10%;
+  display: inline-flex;
+  width: 15%;
+  
+}
+
+.displaytext {
+  color: yellow;
+  border: 2px solid yellow;
+  opacity: 90%;
+}
+
+.displaytext:hover {
+  color: black;
+  background-color: yellow;
+}
+
+
+
+
+
+
+
