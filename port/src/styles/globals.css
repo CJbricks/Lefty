@@ -105,11 +105,8 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Sofia Sans', sans-serif;
   }
-}
-
-h2 {
-  font-family: 'Noto Sans JP', sans-serif;
-  font-family: 'Sofia Sans', sans-serif;
 }
 

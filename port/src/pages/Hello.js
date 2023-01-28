@@ -4,13 +4,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
+
 export default function Hello() {
 
    
-    const [count, setCount] = useState(0)
+    const [toggle, setToggle] = useState(true)
 
     return (
-        <div>
+        <div class={styles.banner}>
         
         <Image 
         src="/images/leftycolors.png"
@@ -20,17 +21,24 @@ export default function Hello() {
         />
 
         <Link href="/Directory"><p className={styles.splashtext}>ENTER</p></Link>
-
-           <Image 
+        <div onClick={() => {setToggle(!toggle)}}>
+            { toggle === true ? 
+            <Image 
             src='/images/bannerdistorted.jpg'
             width={950}
             height={900}
             class={styles.image}
             
-            />
-            
-         
-         
+            /> : 
+             <Image
+             src="/images/cat.jpg"
+             width={950}
+             height={900}
+             class={styles.image} />
+        
+            }
+        </div>
+           
       </div>
     )
 }
