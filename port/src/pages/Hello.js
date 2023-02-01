@@ -24,14 +24,14 @@ export default function Hello() {
         <div onClick={() => {setToggle(!toggle)}}>
             { toggle === true ? 
             <Image 
-            src='/images/bannerdistorted.jpg'
+            src='/images/newsplash.jpg'
             width={950}
             height={900}
             class={styles.image}
             
             /> : 
              <Image
-             src="/images/cat.jpg"
+             src="/images/splashswitch.jpg"
              width={950}
              height={900}
              class={styles.image} />

@@ -9,14 +9,15 @@ export default function Header() {
         <>
             <div class={styles.header}>
                 <Image 
-                src='/images/headerdot.jpg'
+                src='/images/dirghost.png'
                 width={950}
                 height={900} 
                 class={styles.headimage}
                 />
             </div>
             <div class={styles.block}>
-            <Link href="https://bigcartel.com" target="_blank"><h4>STORE</h4></Link>
+            <Link href="https://bigcartel.com" target="_blank"><h4 class={styles.headstore}>STORE</h4></Link>
+            <Link href="https://bigcartel.com" target="_blank"><h4 class={styles.headstore}>CONTACT</h4></Link>
             </div>
         </>
     )
