@@ -127,3 +127,48 @@
 }
 
 
+
+.printbox {
+  width: 96%;
+  height: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: blanchedalmond;
+  display: inline-flex;
+  color: black;
+  padding-left: 6%;
+  margin-top: .5%;
+}
+
+.issue {
+  border: 3px solid bisque;
+}
+
+.text {
+  margin-top: 3%;
+  width: 50%;
+  font-size: 18px;
+}
+
+.backbutton {
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 18px;
+  margin-bottom: 2%;
+  width: 5%;
+  border: 2px solid white;
+  text-align: center;
+}
+
+.backbutton:hover {
+  background-color: white;
+  color: black;
+}
+
+.digitalbox {
+  margin-left: 5%;
+  margin-top: 6%;
+  display: inline-flex;
+}
+
+
