@@ -1,10 +1,16 @@
 import React from 'react'
-import Image from "next/image";
-import styles from "@/styles/Home.module.css";
-import Link from "next/link";
+import Image from 'next/image';
+import styles from '@/styles/Home.module.css';
+import Link from 'next/link';
 import { useState } from 'react';
+import nextPage from '../../public/images/nextpage.jpg';
+import leftyPage from '../../public/images/lefty.jpg';
 
 export default function Issue01() {
+
+    const imageArray = [leftyPage, nextPage]
+
+    const [count, setCount] = useState(0)
   
 
     return (
@@ -41,12 +47,14 @@ export default function Issue01() {
                     Limited to 50 printed paperback issues
                 
                 </p>
-                <Image 
-                src='/images/lefty.jpg'
-                class={styles.issue}
-                height={600}
-                width={850}
-                alt="Issue-01-cover" />
+                <div onClick={()=>{ count === imageArray.length - 1 ? setCount(0) : setCount(count + 1)}}>
+                    <Image 
+                    src={imageArray[count]}
+                    class={styles.issue}
+                    height={600}
+                    width={850}
+                    alt="Issue-01-cover" />
+                </div>
                 
             </div>
     )

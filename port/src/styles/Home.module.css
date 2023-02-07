@@ -133,15 +133,18 @@
   height: 100%;
   margin-left: 2%;
   margin-right: 2%;
-  background-color: blanchedalmond;
+  background-color: rgb(179, 137, 117);
   display: inline-flex;
   color: black;
   padding-left: 6%;
   margin-top: .5%;
+  padding-top: .5%;
+  padding-right: .5%;
+  padding-bottom: .5%;
 }
 
 .issue {
-  border: 3px solid bisque;
+  /*border: 3px solid bisque;*/
 }
 
 .text {
@@ -169,6 +172,10 @@
   margin-left: 5%;
   margin-top: 6%;
   display: inline-flex;
+}
+
+.book {
+  margin-left: 60%;
 }
 
 

@@ -35,10 +35,10 @@ export default function Directory() {
             </div>
             <div class={styles.containers}>
             <Link href="/Web">
-                <h2 class={styles.displaytext}>WEB PROJECTS</h2>
+                <h2 class={styles.displaytext}>RECENT WEB PROJECTS</h2>
                     <Image 
                         class={styles.box}
-                        src="/images/ocguy.jpg"
+                        src="/images/webprojects/meme.jpg"
                         width={350}
                         height={400}
                     />
@@ -61,7 +61,7 @@ export default function Directory() {
                 <h2 class={styles.displaytext}>INSTALLATION</h2>
                     <Image 
                         class={styles.box}
-                        src="/images/green.jpg"
+                        src="/images/nye.jpg"
                         width={350}
                         height={400}
                     />
@@ -69,10 +69,10 @@ export default function Directory() {
             </div>
             <div class={styles.containers}>
             <Link href="/Digital">
-                <h2 class={styles.displaytext}>PHOTOGRAPHY</h2>
+                <h2 class={styles.displaytext}>AI GENERATED IMAGES</h2>
                     <Image 
                         class={styles.box}
-                        src="/images/nye.jpg"
+                        src="/images/ocguy.jpg"
                         width={350}
                         height={400}
                     />

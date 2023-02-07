@@ -1,9 +1,17 @@
 import React from 'react';
-import styles from "@/styles/Home.module.css";
+import styles from '@/styles/Home.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
+import coverPageBlue from '../../public/images/blue.jpg';
+import { useState } from 'react';
+import nextPage from '../../public/images/bluepagetwo.jpg';
+
 
 export default function Issue02() {
+    const pageArray = [coverPageBlue, nextPage]
+
+    const [page, setPage] = useState(0);
+
     return (
         <div class={styles.printbox}>
              <p class={styles.text}>
@@ -35,12 +43,14 @@ export default function Issue02() {
                     Limited to 50 printed paperback issues
                 
                 </p>
-                <Image 
-                src='/images/blue.jpg'
-                class={styles.issue}
-                height={600}
-                width={850}
-                alt="Issue-01-cover" />
+                <div onClick={()=>{ page === pageArray.length - 1 ? setPage(0) : setPage(page + 1) }}>
+                    <Image 
+                    src={pageArray[page]}
+                    class={styles.issue}
+                    height={600}
+                    width={850}
+                    alt="Issue-02-cover" />
+                </div>
         </div>
     )
 }

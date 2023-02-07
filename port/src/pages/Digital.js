@@ -2,11 +2,13 @@ import React from 'react';
 import Link from 'next/link';
 import styles from '@/styles/Home.module.css';
 import Image from 'next/image';
+import PageHeader from '../../src/pages/PageHeader.js';
 
 export default function Digital() {
     return (
         
              <div>
+              <PageHeader />
                <Image 
                src="/images/digitalfold/whistle.jpg"
                width={380}
@@ -112,7 +114,7 @@ export default function Digital() {
                alt="blackmetal-drawing"
                class={styles.digitalbox} />
 
-                <Image 
+              <Image 
                src="/images/digitalfold/uboot.jpg"
                width={380}
                height={500}
