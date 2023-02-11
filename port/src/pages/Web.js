@@ -1,11 +1,16 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from '@/styles/Home.module.css';
+import Vogelisms from '/src/pages/Vogelisms.js';
+import StatSheet from '/src/pages/StatSheet.js';
+import PageHeader from '/src/pages/PageHeader.js';
 
 export default function Web() {
     return (
         <div>
-           <h4>Oooops nothing here</h4>
+        <PageHeader />
+           <Vogelisms />
+           <StatSheet />
            <Link href="/Directory"><h4>BACK</h4></Link>
         </div>
     )

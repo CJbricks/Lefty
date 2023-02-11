@@ -22,7 +22,7 @@ export default function Hello() {
 
         <Link href="/Directory"><p className={styles.splashtext}>ENTER</p></Link>
         <div onClick={() => {setToggle(!toggle)}}>
-            { toggle === true ? 
+            { toggle ? 
             <Image 
             src='/images/newsplash.jpg'
             width={950}

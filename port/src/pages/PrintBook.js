@@ -7,7 +7,7 @@ import book from '../../public/images/sleep copy.jpg'
 export default function PrintBook() {
     return (
         <div>
-            <div class={styles.printbox}>
+            <div class={styles.printboxcover}>
                 <p class={styles.text}>
                    Lefty design print a bi monthly soft-cover bound book.
                    <br />
