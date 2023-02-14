@@ -249,7 +249,7 @@ padding-bottom: 3%;
   display: inline-flex;
   flex-wrap: wrap;
   margin-top: 5%;
-  margin-left: 5%;
+  margin-left: 8%;
   margin-bottom: 5%;
   
 }
@@ -272,6 +272,7 @@ padding-bottom: 3%;
 
 .issue {
  margin-left: 22%;
+ margin-top: 10%;
 }
 
 .issue:hover {

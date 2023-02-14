@@ -17,24 +17,22 @@ export default function Sleep() {
         
             <div class={styles.brandbox}>
                 <p class={styles.text}>
-                    Super Sleep
-                    <br />
-                    <br />
-                    Super Sleep is a hardcore/shoegaze band from Denver Co.
-                    <br />
-                    Super Sleep creates a unique cacophany of sound based in their Hardcore roots.
-                    <br />
-                    Unafaraid to explore the depth of their ambient, but aggressive sound 
-                    SuperSleep aims to push their sound further by combinging their unique
-                    sound with a strong aesthetic. 
-                    <br />
-                    <br />
-                    Their influences include:
-                    <br />
-                    <br />
-                    MBV, Catherine Wheel, slowdive, superheaven, Nothing, Quicksand,
-                    <br />
-                    Guitar music as whole, noise, feedback, and pure sweet sweet meoldy played over the sound of animals fighting.
+                Introducing a unique and thriving screen printing merchandise company that specializes in producing high-quality, hand-made products for small local projects and DIY bands in the hardcore genre. This online-based company operates between Denver, CO, and Austin, TX, offering a range of screen printing services that cater to the needs of local communities.
+                <br />
+                <br />
+                The company was founded by two long-time friends who share a passion for screen printing and the hardcore music scene. With a deep understanding of the industry's needs, they set out to create a company that could provide high-quality, customized merchandise for local projects and bands.
+                <br />
+                <br />
+                Using the finest quality materials and techniques, the team at this screen printing merchandise company creates unique, hand-made products that stand out from the crowd. They specialize in producing t-shirts, sweatshirts, and accessories with custom designs, logos, and graphics that perfectly match their clients' needs and vision.
+                <br />
+                <br />
+                In addition to offering screen printing services, this company also offers consultation and design services to help clients bring their ideas to life. With their expertise and experience, they can offer guidance on design concepts, color schemes, and production techniques to ensure that the end result is exactly what the client is looking for.
+                <br />
+                <br />
+                The team is passionate about the hardcore music scene and is dedicated to supporting local bands and small local projects. They take pride in their ability to provide affordable and high-quality merchandise to these communities, helping them to spread their message and promote their causes.
+                <br />
+                <br />
+                Whether you're a local project, a DIY band, or just looking for unique and high-quality screen printed merchandise, this company welcomes you to explore their services and join their community. With their dedication to quality and passion for the industry, they are committed to providing customers with an exceptional experience from start to finish.
                     <br />
                     <br />
                     Lefty works with Super Sleep to develop their merchandise and branding.
@@ -51,7 +49,8 @@ export default function Sleep() {
                     class={styles.issue}
                     height={600}
                     width={500}
-                    alt="Floral-Green-Branding" />
+                    alt="Super-Sleep-Branding" />
+                    
                 </div>
                 
             </div>

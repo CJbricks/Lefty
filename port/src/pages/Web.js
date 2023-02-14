@@ -11,7 +11,7 @@ export default function Web() {
         <PageHeader />
            <Vogelisms />
            <StatSheet />
-           <Link href="/Directory"><h4>BACK</h4></Link>
+           <Link href="/Directory"><h4 class={styles.backbutton}>BACK</h4></Link>
         </div>
     )
 }
