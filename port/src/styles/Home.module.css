@@ -168,6 +168,8 @@ padding-bottom: 3%;
 }
 
 
+
+
 .text {
   margin-top: 3%;
   width: 50%;
@@ -266,4 +268,33 @@ padding-bottom: 3%;
 
 .textbox {
   margin-left: 14%;
+}
+
+.issue {
+ margin-left: 22%;
+}
+
+.issue:hover {
+  cursor: pointer;
+}
+
+.issueprinted {
+  margin-right: 2%;
+}
+
+
+
+.brandbox {
+  width: 96%;
+  height: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: whitesmoke;
+  display: inline-flex;
+  color: black;
+  padding-left: 4%;
+  margin-top: .5%;
+  padding-top: .5%;
+  padding-right: .5%;
+  padding-bottom: .5%;
 }

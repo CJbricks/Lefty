@@ -50,7 +50,7 @@ export default function Issue01() {
                 <div onClick={()=>{ count === imageArray.length - 1 ? setCount(0) : setCount(count + 1)}}>
                     <Image 
                     src={imageArray[count]}
-                    class={styles.issue}
+                    class={styles.issueprinted}
                     height={600}
                     width={850}
                     alt="Issue-01-cover" />

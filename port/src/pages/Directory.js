@@ -46,7 +46,7 @@ export default function Directory() {
             </div>
 
             <div class={styles.containers}>
-                <Link href="/Print">
+                <Link href="/Branding/Brand">
                 <h2 class={styles.displaytext}>BRANDS & MERCHANDISING</h2>
                     <Image 
                         class={styles.box}

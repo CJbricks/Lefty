@@ -46,7 +46,7 @@ export default function Issue02() {
                 <div onClick={()=>{ page === pageArray.length - 1 ? setPage(0) : setPage(page + 1) }}>
                     <Image 
                     src={pageArray[page]}
-                    class={styles.issue}
+                    class={styles.issueprinted}
                     height={600}
                     width={850}
                     alt="Issue-02-cover" />
