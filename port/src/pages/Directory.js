@@ -16,7 +16,7 @@ export default function Directory() {
                 <h2 class={styles.displaytext}>PRINTED MEDIA</h2>
                     <Image 
                         class={styles.box}
-                        src="/images/cop.jpg"
+                        src="/images/DirImages/cop.jpg"
                         width={350}
                         height={400}
                     />
@@ -27,7 +27,7 @@ export default function Directory() {
                 <h2 class={styles.displaytext}>DIGITAL DESIGN</h2>
                     <Image 
                         class={styles.box}
-                        src="/images/digitalsplash.jpg"
+                        src="/images/DirImages/digitalsplash.jpg"
                         width={350}
                         height={400}
                     />
@@ -50,7 +50,7 @@ export default function Directory() {
                 <h2 class={styles.displaytext}>BRANDS & MERCHANDISING</h2>
                     <Image 
                         class={styles.box}
-                        src="/images/rbcoffee.jpg"
+                        src="/images/Branding/rbcoffee.jpg"
                         width={350}
                         height={400}
                     />
@@ -61,7 +61,7 @@ export default function Directory() {
                 <h2 class={styles.displaytext}>INSTALLATION</h2>
                     <Image 
                         class={styles.box}
-                        src="/images/nye.jpg"
+                        src="/images/DirImages/nye.jpg"
                         width={350}
                         height={400}
                     />
@@ -72,7 +72,7 @@ export default function Directory() {
                 <h2 class={styles.displaytext}>AI GENERATED IMAGES</h2>
                     <Image 
                         class={styles.box}
-                        src="/images/ocguy.jpg"
+                        src="/images/DirImages/ocguy.jpg"
                         width={350}
                         height={400}
                     />

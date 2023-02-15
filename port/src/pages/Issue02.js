@@ -2,9 +2,9 @@ import React from 'react';
 import styles from '@/styles/Home.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import coverPageBlue from '../../public/images/blue.jpg';
+import coverPageBlue from '../../public/images/issues/blue.jpg';
 import { useState } from 'react';
-import nextPage from '../../public/images/bluepagetwo.jpg';
+import nextPage from '../../public/images/issues/bluepagetwo.jpg';
 
 
 export default function Issue02() {

@@ -3,8 +3,8 @@ import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
 import Link from 'next/link';
 import { useState } from 'react';
-import nextPage from '../../public/images/nextpage.jpg';
-import leftyPage from '../../public/images/lefty.jpg';
+import nextPage from '../../public/images/issues/nextpage.jpg';
+import leftyPage from '../../public/images/issues/lefty.jpg';
 
 export default function Issue01() {
 

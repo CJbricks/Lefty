@@ -18,7 +18,7 @@ export default function Header() {
 
             <div class={styles.block}>
                 <Link href="/About"><h4 class={styles.headend}>ABOUT</h4></Link>
-                <Link href="/About"><h4 class={styles.headstore}>CONTACT</h4></Link>
+                <Link href="/Contact"><h4 class={styles.headstore}>CONTACT</h4></Link>
                 <Link href="https://bigcartel.com" target="_blank"><h4 class={styles.headstore}>STORE</h4></Link>
             </div>
         </>

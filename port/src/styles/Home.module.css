@@ -299,3 +299,25 @@ padding-bottom: 3%;
   padding-right: .5%;
   padding-bottom: .5%;
 }
+
+.form {
+  margin-left: 32%;
+  margin-top: 5%;
+  border: 1px solid red;
+  width: 40%;
+  padding: 5%;
+  text-align: center;
+  border-radius: 5px;
+  
+  color: whitesmoke;
+}
+
+.messagebox {
+  height: 75%;
+  width: 75%;
+  
+}
+
+.formtext {
+  font-size: 24px;
+}
