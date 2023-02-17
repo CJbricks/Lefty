@@ -23,14 +23,14 @@ export default function Hello() {
             width={950}
             height={900}
             class={styles.image}
-            layout="responsive"
+            
             /> : 
              <Image
              src="/images/splashswitch.jpg"
              width={950}
              height={900}
              class={styles.image}
-             layout="responsive" />
+              />
         
             }
         </div>

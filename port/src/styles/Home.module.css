@@ -54,9 +54,7 @@
   margin-top: 6%;
   display: inline-flex;
   flex-wrap: wrap;
-  width: 15%;
- 
-  
+  width: 20%;
 }
 
 .dropbox {
@@ -316,3 +314,5 @@ padding-bottom: 3%;
 .formtext {
   font-size: 24px;
 }
+
+
