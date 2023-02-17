@@ -11,73 +11,77 @@ export default function Directory() {
     return (
         <>
         <Header />
-            <div class={styles.containers}>
-                <Link href="/Print">
-                <h2 class={styles.displaytext}>PRINTED MEDIA</h2>
-                    <Image 
-                        class={styles.box}
-                        src="/images/DirImages/cop.jpg"
-                        width={350}
-                        height={400}
-                    />
+        
+                <div class={styles.containers}>
+                    <Link href="/Print">
+                    <h2 class={styles.displaytext}>PRINTED MEDIA</h2>
+                        <Image 
+                            class={styles.box}
+                            src="/images/DirImages/cop.jpg"
+                            width={350}
+                            height={400}
+                            
+                        />
+                    </Link>
+                </div>
+                <div class={styles.containers}>
+                <Link href="/Digital">
+                    <h2 class={styles.displaytext}>DIGITAL DESIGN</h2>
+                        <Image 
+                            class={styles.box}
+                            src="/images/DirImages/digitalsplash.jpg"
+                            width={350}
+                            height={400}
+                            
+                        />
                 </Link>
-            </div>
-            <div class={styles.containers}>
-            <Link href="/Digital">
-                <h2 class={styles.displaytext}>DIGITAL DESIGN</h2>
-                    <Image 
-                        class={styles.box}
-                        src="/images/DirImages/digitalsplash.jpg"
-                        width={350}
-                        height={400}
-                    />
-            </Link>
-            </div>
-            <div class={styles.containers}>
-            <Link href="/Web">
-                <h2 class={styles.displaytext}>RECENT WEB PROJECTS</h2>
-                    <Image 
-                        class={styles.box}
-                        src="/images/webprojects/meme.jpg"
-                        width={350}
-                        height={400}
-                    />
-            </Link>
-            </div>
+                </div>
+                <div class={styles.containers}>
+                <Link href="/Web">
+                    <h2 class={styles.displaytext}>RECENT WEB PROJECTS</h2>
+                        <Image 
+                            class={styles.box}
+                            src="/images/webprojects/meme.jpg"
+                            width={350}
+                            height={400}
+                        />
+                </Link>
+                </div>
 
-            <div class={styles.containers}>
-                <Link href="/Branding/Brand">
-                <h2 class={styles.displaytext}>BRANDS & MERCHANDISING</h2>
-                    <Image 
-                        class={styles.box}
-                        src="/images/Branding/rbcoffee.jpg"
-                        width={350}
-                        height={400}
-                    />
+                <div class={styles.containers}>
+                    <Link href="/Branding/Brand">
+                    <h2 class={styles.displaytext}>BRANDS & MERCHANDISING</h2>
+                        <Image 
+                            class={styles.box}
+                            src="/images/Branding/rbcoffee.jpg"
+                            width={350}
+                            height={400}
+                        />
+                    </Link>
+                </div>
+                <div class={styles.containers}>
+                <Link href="/Digital">
+                    <h2 class={styles.displaytext}>INSTALLATION</h2>
+                        <Image 
+                            class={styles.box}
+                            src="/images/DirImages/nye.jpg"
+                            width={350}
+                            height={400}
+                        />
                 </Link>
-            </div>
-            <div class={styles.containers}>
-            <Link href="/Digital">
-                <h2 class={styles.displaytext}>INSTALLATION</h2>
-                    <Image 
-                        class={styles.box}
-                        src="/images/DirImages/nye.jpg"
-                        width={350}
-                        height={400}
-                    />
-            </Link>
-            </div>
-            <div class={styles.containers}>
-            <Link href="/Digital">
-                <h2 class={styles.displaytext}>AI GENERATED IMAGES</h2>
-                    <Image 
-                        class={styles.box}
-                        src="/images/DirImages/ocguy.jpg"
-                        width={350}
-                        height={400}
-                    />
-            </Link>
-            </div>
+                </div>
+                <div class={styles.containers}>
+                <Link href="/Digital">
+                    <h2 class={styles.displaytext}>AI GENERATED IMAGES</h2>
+                        <Image 
+                            class={styles.box}
+                            src="/images/DirImages/ocguy.jpg"
+                            width={350}
+                            height={400}
+                        />
+                </Link>
+                </div>
+            
 
             <Foot />   
         </>

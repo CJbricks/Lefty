@@ -13,12 +13,7 @@ export default function Hello() {
     return (
         <div class={styles.banner}>
         
-        <Image 
-        src="/images/leftycolors.png"
-        width={500}
-        height={275}
-        class={styles.leftys}
-        />
+        
 
         <Link href="/Directory"><p className={styles.splashtext}>ENTER</p></Link>
         <div onClick={() => {setToggle(!toggle)}}>
@@ -28,13 +23,14 @@ export default function Hello() {
             width={950}
             height={900}
             class={styles.image}
-            
+            layout="responsive"
             /> : 
              <Image
              src="/images/splashswitch.jpg"
              width={950}
              height={900}
-             class={styles.image} />
+             class={styles.image}
+             layout="responsive" />
         
             }
         </div>

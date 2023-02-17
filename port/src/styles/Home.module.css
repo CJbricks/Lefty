@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Sofia+Sans:ital,wght@0,400;0,600;1,100&display=swap');
 
+
+
 .banner{
   position: absolute;
   width: 100%;
@@ -23,14 +25,6 @@
   cursor: pointer;
 }
 
-.leftys {
-  position: absolute;
-  margin-left: 32%;
-  margin-right: 45%;
-  margin-bottom: 5%;
-  margin-top: 15%;
-  display: none;
-}
 
 .splashtext {
   position: absolute;
@@ -59,7 +53,9 @@
   margin-left: 12%;
   margin-top: 6%;
   display: inline-flex;
+  flex-wrap: wrap;
   width: 15%;
+ 
   
 }
 
@@ -128,12 +124,12 @@
 
 .headstore {
   margin-left: 31%;
-  display: inline;
+  display: inline-flex;
 }
 
 .headend {
   margin-left: 11%;
-  display: inline;
+  display: inline-flex;
 }
 
 
