@@ -11,7 +11,7 @@ export default function Directory() {
     return (
         <>
         <Header />
-        
+            <div class={styles.walls}>
                 <div class={styles.containers}>
                     <Link href="/Print">
                     <h2 class={styles.displaytext}>PRINTED MEDIA</h2>
@@ -20,7 +20,7 @@ export default function Directory() {
                             src="/images/DirImages/cop.jpg"
                             width={350}
                             height={400}
-                            
+                            alt="Printed-Media-Icon"
                         />
                     </Link>
                 </div>
@@ -32,7 +32,7 @@ export default function Directory() {
                             src="/images/DirImages/digitalsplash.jpg"
                             width={350}
                             height={400}
-                            
+                            alt="digital-Media-Icon"
                         />
                 </Link>
                 </div>
@@ -41,9 +41,10 @@ export default function Directory() {
                     <h2 class={styles.displaytext}>RECENT WEB PROJECTS</h2>
                         <Image 
                             class={styles.box}
-                            src="/images/webprojects/meme.jpg"
+                            src="/images/digitalfold/crowns copy 2.jpg"
                             width={350}
                             height={400}
+                            alt="Web-Media-Icon"
                         />
                 </Link>
                 </div>
@@ -56,6 +57,7 @@ export default function Directory() {
                             src="/images/Branding/rbcoffee.jpg"
                             width={350}
                             height={400}
+                            alt="Branded-Media-Icon"
                         />
                     </Link>
                 </div>
@@ -67,6 +69,7 @@ export default function Directory() {
                             src="/images/DirImages/nye.jpg"
                             width={350}
                             height={400}
+                            alt="Installation-Media-Icon"
                         />
                 </Link>
                 </div>
@@ -78,9 +81,11 @@ export default function Directory() {
                             src="/images/DirImages/ocguy.jpg"
                             width={350}
                             height={400}
+                            alt="AI-Media-Icon"
                         />
                 </Link>
                 </div>
+            </div>
             
 
             <Foot />   
