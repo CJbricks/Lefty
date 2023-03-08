@@ -15,37 +15,43 @@ export default function Directory() {
                 <div class={styles.containers}>
                     <Link href="/Print">
                     <h2 class={styles.displaytext}>PRINTED MEDIA</h2>
-                        <Image 
-                            class={styles.box}
-                            src="/images/DirImages/cop.jpg"
-                            width={350}
-                            height={400}
-                            alt="Printed-Media-Icon"
-                        />
+                     <div class={styles.scalebox}>
+                            <Image 
+                                class={styles.box}
+                                src="/images/DirImages/cop.jpg"
+                                width={350}
+                                height={400}
+                                alt="Printed-Media-Icon"
+                            />
+                        </div>
                     </Link>
                 </div>
                 <div class={styles.containers}>
                 <Link href="/Digital">
                     <h2 class={styles.displaytext}>DIGITAL DESIGN</h2>
-                        <Image 
-                            class={styles.box}
-                            src="/images/DirImages/digitalsplash.jpg"
-                            width={350}
-                            height={400}
-                            alt="digital-Media-Icon"
-                        />
+                        <div class={styles.scalebox}>
+                            <Image 
+                                class={styles.box}
+                                src="/images/DirImages/digitalsplash.jpg"
+                                width={350}
+                                height={400}
+                                alt="digital-Media-Icon"
+                            />
+                        </div>
                 </Link>
                 </div>
                 <div class={styles.containers}>
                 <Link href="/Web">
                     <h2 class={styles.displaytext}>RECENT WEB PROJECTS</h2>
-                        <Image 
-                            class={styles.box}
-                            src="/images/digitalfold/crowns copy 2.jpg"
-                            width={350}
-                            height={400}
-                            alt="Web-Media-Icon"
-                        />
+                            <div class={styles.scalebox}>
+                                <Image 
+                                    class={styles.box}
+                                    src="/images/digitalfold/crowns copy 2.jpg"
+                                    width={350}
+                                    height={400}
+                                    alt="Web-Media-Icon"
+                                />
+                            </div>
                 </Link>
                 </div>
 
