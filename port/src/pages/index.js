@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { useState } from 'react';
-import Hello from '/src/pages/Hello.js';
+import Directory from '/src/pages/Directory.js';
 
 
 
@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     
-    <Hello />
+    <Directory />
     
      
     </>

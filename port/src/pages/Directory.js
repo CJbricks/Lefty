@@ -14,7 +14,7 @@ export default function Directory() {
             <div class={styles.walls}>
                 <div class={styles.containers}>
                     <Link href="/Print">
-                    <h2 class={styles.displaytext}>PRINTED MEDIA</h2>
+                    <h2 class={styles.displaytext}>PRINT</h2>
                      <div class={styles.scalebox}>
                             <Image 
                                 class={styles.box}
@@ -28,7 +28,7 @@ export default function Directory() {
                 </div>
                 <div class={styles.containers}>
                 <Link href="/Digital">
-                    <h2 class={styles.displaytext}>DIGITAL DESIGN</h2>
+                    <h2 class={styles.displaytext}>DIGITAL</h2>
                         <div class={styles.scalebox}>
                             <Image 
                                 class={styles.box}
@@ -42,7 +42,7 @@ export default function Directory() {
                 </div>
                 <div class={styles.containers}>
                 <Link href="/Web">
-                    <h2 class={styles.displaytext}>RECENT WEB PROJECTS</h2>
+                    <h2 class={styles.displaytext}>WEB PROJECTS</h2>
                             <div class={styles.scalebox}>
                                 <Image 
                                     class={styles.box}
@@ -57,7 +57,7 @@ export default function Directory() {
 
                 <div class={styles.containers}>
                     <Link href="/Branding/Brand">
-                    <h2 class={styles.displaytext}>BRANDS & MERCHANDISING</h2>
+                    <h2 class={styles.displaytext}>BRAND DESIGN</h2>
                         <Image 
                             class={styles.box}
                             src="/images/Branding/rbcoffee.jpg"
@@ -69,7 +69,7 @@ export default function Directory() {
                 </div>
                 <div class={styles.containers}>
                 <Link href="/Digital">
-                    <h2 class={styles.displaytext}>INSTALLATION</h2>
+                    <h2 class={styles.displaytext}>FINE ART</h2>
                         <Image 
                             class={styles.box}
                             src="/images/DirImages/nye.jpg"
@@ -81,7 +81,7 @@ export default function Directory() {
                 </div>
                 <div class={styles.containers}>
                 <Link href="/Digital">
-                    <h2 class={styles.displaytext}>AI GENERATED IMAGES</h2>
+                    <h2 class={styles.displaytext}>AI IMAGES</h2>
                         <Image 
                             class={styles.box}
                             src="/images/DirImages/ocguy.jpg"

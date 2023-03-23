@@ -116,17 +116,17 @@
   background-color: whitesmoke;
   color: black;
   padding: 2.5%;
-  font-size: 1.5rem;
+  font-size: 2rem;
   
 }
 
 .headstore {
-  margin-left: 31%;
+  margin-left: 25%;
   display: inline-flex;
 }
 
 .headend {
-  margin-left: 11%;
+  margin-left: 16%;
   display: inline-flex;
 }
 
@@ -318,18 +318,37 @@ padding-bottom: 3%;
 .walls {
   padding: 2%;
   width: 100%;
-  border: 1px solid blue;
 }
 
 @media only screen and (max-width: 480px) {
+  .headimage {
+    width: 100%;
+    height: 25%;
+    object-fit: cover;
+  }
+
   .containers{
+    width: 30%;
     height: 100%;
     text-align: center;
     padding: 8;
-    margin-left: 8%;
+    margin-left: 12%;
     margin-top: 6%;
-    width: 20%;
     margin-right: 4%;
+    
+  }
+
+   .displaytext{
+    width: 100%;
+    height:auto ;
+    border: 1px solid whitesmoke;
+    font-size: 1.5rem;
+  }
+
+  .box {
+    width: 120px;
+    height: 170px;
+    object-fit: cover;
   }
 
   .block {
@@ -338,26 +357,31 @@ padding-bottom: 3%;
     background-color: whitesmoke;
     color: black;
     padding: 2.5%;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     display: inline-flex;
     flex-wrap: wrap; 
     justify-content: space-between;
+   
+  }
 
+  .headstore {
+    margin-left: 5%;
+    display: inline;
+  }
+  
+  .headend {
+    margin-left: 5%;
+    display: inline;
   }
 
   .walls {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid red;
+    
   }
 
-  .displaytext{
-    display: none;
-  }
+ 
 
-  .scalebox{
-    width: 30%; 
-    height: 30%;
-  }
+  
 
 }
