@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import styles from '@/styles/Home.module.css';
 import Link from 'next/link';
+import PageHeader from './PageHeader.js'
 
 
 export default function Header() {
@@ -16,11 +17,7 @@ export default function Header() {
                 />
             </div>
 
-            <div class={styles.block}>
-                <Link href="/About"><h4 class={styles.headend}>ABOUT</h4></Link>
-                <Link href="/About"><h4 class={styles.headstore}>CONTACT</h4></Link>
-                <Link href="https://bigcartel.com" target="_blank"><h4 class={styles.headstore}>STORE</h4></Link>
-            </div>
+            <PageHeader />
         </>
     )
 }
