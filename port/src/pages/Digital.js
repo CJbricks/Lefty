@@ -4,7 +4,13 @@ import styles from '@/styles/Home.module.css';
 import Image from 'next/image';
 import PageHeader from '../../src/pages/PageHeader.js';
 
+
 export default function Digital() {
+
+    const imageArr = [whistle, bleach, blvd, dryWall, frogDog, dad, crowns, 
+    jumper, promise, nothingWorks, skatePark, internet, shed, 
+    trashBoy, stand, uBoot, freedom, lasso];
+
     return (
         
              <div>

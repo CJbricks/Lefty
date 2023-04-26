@@ -19,8 +19,8 @@ export default function Directory() {
                             <Image 
                                 class={styles.box}
                                 src="/images/DirImages/cop.jpg"
-                                width={350}
-                                height={400}
+                                width={450}
+                                height={500}
                                 alt="Printed-Media-Icon"
                             />
                         </div>
@@ -33,8 +33,8 @@ export default function Directory() {
                             <Image 
                                 class={styles.box}
                                 src="/images/DirImages/digitalsplash.jpg"
-                                width={350}
-                                height={400}
+                                width={450}
+                                height={500}
                                 alt="digital-Media-Icon"
                             />
                         </div>
@@ -47,8 +47,8 @@ export default function Directory() {
                                 <Image 
                                     class={styles.box}
                                     src="/images/digitalfold/crowns copy 2.jpg"
-                                    width={350}
-                                    height={400}
+                                    width={450}
+                                    height={500}
                                     alt="Web-Media-Icon"
                                 />
                             </div>
@@ -61,8 +61,8 @@ export default function Directory() {
                         <Image 
                             class={styles.box}
                             src="/images/Branding/rbcoffee.jpg"
-                            width={350}
-                            height={400}
+                            width={450}
+                            height={500}
                             alt="Branded-Media-Icon"
                         />
                     </Link>
@@ -73,24 +73,13 @@ export default function Directory() {
                         <Image 
                             class={styles.box}
                             src="/images/DirImages/nye.jpg"
-                            width={350}
-                            height={400}
+                            width={450}
+                            height={500}
                             alt="Installation-Media-Icon"
                         />
                 </Link>
                 </div>
-                <div class={styles.containers}>
-                <Link href="/Digital">
-                    <h2 class={styles.displaytext}>AI IMAGES</h2>
-                        <Image 
-                            class={styles.box}
-                            src="/images/DirImages/ocguy.jpg"
-                            width={350}
-                            height={400}
-                            alt="AI-Media-Icon"
-                        />
-                </Link>
-                </div>
+               
             </div>
             
 
